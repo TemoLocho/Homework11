@@ -1,7 +1,7 @@
 .conteiner {
     max-width: 1440px;
+    width: 100%;
     margin-inline: auto;
-    border: 2px solid red;
 }
 
 /* header */
@@ -54,3 +54,173 @@ ul {
 }
 
 /* header-end */
+
+/* main */
+
+main {
+    width: 100%;
+    padding: 114px 75px 129px 75px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    color: #13345B;
+}
+
+.div_userinfo {
+    width: 100%;
+    height: 212px;
+    margin-top: 88px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.div_info {
+    width: 45%;
+    height: 90px;
+}
+
+.label_info {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #13345B;
+    margin-bottom: 8px;
+}
+
+.input_info {
+    width: 100%;
+    height: 58px;
+    background-color: #B3E9F5;
+    border: none;
+}
+
+.div_fill {
+    width: 70%;
+    margin-top: 120px;
+}
+
+.div_fill_1 {
+    width: 70%;
+}
+
+p {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    color: #15C1E7;
+    margin-bottom: 32px;
+}
+
+.label_fill {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #13345B;
+}
+
+.div_fill_2 {
+    width: 75%;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.div_fill_3 {
+    width: 100%;
+}
+
+::-webkit-file-upload-button {
+    font-size: 32px;
+    width: 217px;
+    height: 61px;
+    border-radius: 8px;
+    border: 1px solid #000000;
+}
+
+.input_fill_3 {
+    font-weight: 400;
+    font-size: 32px;
+    color: #000000;
+}
+
+.div_buttons {
+    width: 100%;
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button_message {
+    width: 48%;
+    height: 108px;
+    font-size: 36px;
+    color: #FFFFFF;
+    border-radius: 15px;
+    background-color: #FDD504;
+
+}
+
+.button_reset {
+    width: 48%;
+    height: 108px;
+    font-size: 36px;
+    color: #FFFFFF;
+    border-radius: 15px;
+    background-color: #15C1E7
+}
+
+/* main-end */
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #13345B;
+}
+
+.div_footer {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-fb,
+.icon-insta,
+.icon-twitter,
+.icon-youtube {
+    font-size: 80px;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+.icon-fb:hover {
+    transform: skew(20deg);
+    color: blue;
+}
+
+.icon-insta:hover {
+    transform: skew(20deg);
+    color: purple;
+}
+
+.icon-twitter:hover {
+    transform: skew(20deg);
+    color: aqua;
+}
+
+.icon-youtube:hover {
+    transform: skew(20deg);
+    color: red
+}
+
+/* footer-end */
