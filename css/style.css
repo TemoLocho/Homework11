@@ -161,6 +161,7 @@ p {
     font-size: 36px;
     color: #FFFFFF;
     border-radius: 15px;
+    border: none;
     background-color: #FDD504;
 
 }
@@ -171,6 +172,7 @@ p {
     font-size: 36px;
     color: #FFFFFF;
     border-radius: 15px;
+    border: none;
     background-color: #15C1E7
 }
 
